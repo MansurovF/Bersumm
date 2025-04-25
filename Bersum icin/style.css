@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+  }
+  body {
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  #yesBtn1{
+    background-color: #0f0;
+  }
+  #noBtn1{
+    background-color: rgb(211, 20, 20);
+  }
+  #yesBtn2{
+    background-color: #0f0;
+  }
+  #noBtn2{
+    background-color: rgb(211, 20, 20);
+  }
+  
+  .poll-box {
+    background: #752c32;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  }
+  h1 {
+    margin-bottom: 30px;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  button {
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #yesBtn {
+    background-color: #0f0;
+    color: #000;
+  }
+  #noBtn {
+    background-color: #f00;
+    color: #fff;
+    position: relative;
+  }
+  .result {
+    display: none;
+    text-align: center;
+  }
+  .result h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #0f0;
+  }
+  .result video {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
+  }
